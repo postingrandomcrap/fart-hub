@@ -1,3 +1,5 @@
+print("fart")
+
 --[[
 
 ArrayField Interface Suite
@@ -612,7 +614,7 @@ function RayfieldLibrary:Notify(NotificationSettings)
 			blurlight.FocusDistance = 51.6
 			blurlight.InFocusRadius = 50
 			blurlight.NearIntensity = 1
-			game:GetService("Debris"):AddItem(script, 0.4)
+			-- game:GetService("Debris"):AddItem(script, 0.4)
 		end
 
 		Notification.Actions.Template.Visible = false
